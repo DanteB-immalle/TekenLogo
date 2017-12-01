@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Canvas x:Name="canvas" HorizontalAlignment="Left" Height="319" VerticalAlignment="Top" Width="517" Background="#FFFFFF09">
+            <Button x:Name="MijnKnop" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="76" Click="MijnKnop_Click" RenderTransformOrigin="-0.388,9.641" Canvas.Left="416" Canvas.Top="28" Foreground="White" Background="Black"/>
+        </Canvas>
+
     </Grid>
 </Window>
